@@ -8,5 +8,5 @@ while True:
     #print(frame.shape)
     cv2.imshow("Video Frame",frame)
 
-    if cv2.waitKey(1) & 0xFF == ord('q'):
+    if cv2.waitKey(1) & 0xFF==ord('q'):
         break
