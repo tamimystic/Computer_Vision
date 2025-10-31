@@ -6,6 +6,7 @@ img2=cv2.imread("resources\siberian-tiger.jpg")
 
 img_HOrizontal=np.hstack((img1,img1))
 cv2.imshow("Horizontal Image",img_HOrizontal)
+cv2.waitKey(0)
 
 img_vertical=np.vstack((img1,img1))
 cv2.imshow("Vertical Image",img_vertical)
