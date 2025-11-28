@@ -1,0 +1,3 @@
+Convolution operation in CNN
+
+-> CNN architecture first layer is convolutional layer
